@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/estilo_home.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<script>
+	$(function(){
+		$(".button-collapse").sideNav();
+	});
+</script>
+<body>
+	
+	<nav id="menu">
+		
+		<div id="topo" class="nav-wrapper">
+			<span class="menu_2">
+				
+				<a href="#" data-activates="menu-mobile" class="button-collapse">
+					<i class="material-icons"><img src="img/btn_menu.png"></i>
+
+				</a>
+			</span>
+			
+			<ul class="right hide-on-med-and-down">   
+				<li><a href="index.html">INICÍO</a></li>
+				<li><a href="quemsomos.html">QUEM SOMOS</a></li>
+				<li><a href="cardapio.html">CARDÁPIO</a></li>
+				<li><a href="contato.html">CONTATO</a></li>
+			</ul>
+
+			<ul class="side-nav" id="menu-mobile">
+				<li><a href="index.html">INICÍO</a></li>
+				<li><a href="quemsomos.html">QUEM SOMOS</a></li>
+				<li><a href="cardapio.html">CARDÁPIO</a></li>
+				<li><a href="contato.html">CONTATO</a></li>
+			</ul>
+		</div>
+	</nav>
+	<h1 class="text-center animate__animated animate__fadeIn animate__delay-1s"><a  href="index.html"><img src="img/logo_coffee-break_pp.png"></a></h1>
+	<!--quem somos-->
+	<div id="quemsomos">
+		<div class="container">
+			<div class="row">
+
+				<h2 class="text-center"><img src="img/titulo1.png"></h2>
+				<div class="carousel carousel-slider">
+					<a class="carousel-item" href="#one!"><img src="img/slid 2.jpg"></a>
+					<a class="carousel-item" href="#two!"><img src="img/slid 3.jpg"></a>
+					<a class="carousel-item" href="#three!"><img src="img/slid 4.jpg"></a>
+					
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+	<!--fim quem somos-->
+
+
+	<!--rodape-->
+	<div id="rodape">
+		<div class="container">
+			<div class="row">
+				<footer>
+					<div class="col-md-10 col-md-offset-1"> 
+						<div class="col-md-6 col-lg-3 col-sm-12">
+							<h4 class="text-center">Redes sociais</h4>
+							<ul>
+
+								<li><a href="#">Facebook</a></li>
+								<li><a href="#">Instagram</a></li>
+								<li><a href="#">Tik tok</a></li>
+								<li><a href="#">Linkedin</a></li>
+
+							</ul>
+
+						</div>
+						<div class="col-md-6 col-lg-3 col-sm-12">
+							<h4 class="text-center">Contato</h4>
+							<ul>
+								<li>RJ Tel (21)******-*******</li>
+								<li>SP Tel (21)******-*******</li>
+								<li>PR Tel (21)******-*******</li>
+								<li>Email streetcafe@hol.com.br</li>
+
+							</ul>
+
+						</div>
+
+						<div class="col-md-6 col-lg-3 col-sm-12">
+							<h4 class="text-center">Franquias</h4>
+							<ul>
+								<li>Rio de janeiro</li>
+								<li>São Paulo</li>
+								<li>Minas Gerais</li>
+								<li>Pernanbuco</li>
+
+							</ul>
+
+						</div>
+
+						<div id="linkedin" class="col-md-6 col-lg-3 col-sm-12">
+							<h4 class="text-center">Colaboradores</h4>
+							<li>
+								<a href=""><img src="img/coffee-break_pp2.png"></a>
+							</li>
+
+							<li>
+								<a href=""><img src="img/uniao.png"></a>
+							</li>
+
+							<li>
+								<a href=""><img src="img/3coracoes.png"></a>
+							</li>
+
+						</div>
+
+
+					</div>
+					
+				</footer>
+				<a href="#topo" id="btn_topo"><img src="img/seta-para-cima_p.png"></a>
+			</div>
+		</div>
+		
+
+	</div>
+	<div class="container-fluid sandro">
+		<div class="row">
+			<h4 class="col-md-12  text-center"><a href="https://sandrodesigner.jimdo.com" target="_blank" title="Potifólio">Desenvolvedor Sandro Gomes</a></h4>
+		</div>
+	</div>
+
+	<!--fim rodape-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+	
+	<script>
+		/*carrosel materialize*/
+
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.carousel');
+			var instances = M.Carousel.init(elems, options);
+		});
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+  	$('.carousel.carousel-slider').carousel({
+  		fullWidth: true
+  	});
+  });
+
+</script>
+
+</body>
+</html>
