@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');/*um bom cafe*/
+
+body{
+	overflow-x: hidden;
+    background-color: #000000;
+}
+/*menu*/
+
+.button-collapse{
+    margin-left: 100px;
+}
+/*--menu--*/
+#menu{
+    background-color: #00000000;
+}
+#menu a{
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 1s;
+}
+#menu ul li a:hover{
+    background-color: #fff;
+    text-decoration: none;
+    color: #8e5130;
+}
+/*menu mobile*/
+.side-nav a:hover{
+
+}
+#home .row{
+    
+}
+#home{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../img/imagem_3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#home h2,p{
+    color: #fff;
+}
+#home h2{
+    font-size: 4em;
+    font-family: 'Allan', cursive;
+}
+#home a{
+    text-decoration: none;
+}
+#home h3{/*btn saiba mais*/
+    width: 150px;
+    font-size: 20px;
+}
+#acesso h3{ 
+    color: #fff;
+    background-color:#9c6644 ;
+    border-radius: 10px;
+    padding: 15px 0 15px 0;
+    transition: 1s all;
+
+}
+#acesso h3:hover{
+    letter-spacing: .2rem;
+    background-color:#8e5130;
+
+}
+#inicio{
+    height: 400px;
+    background-color: #000000;
+}
+#quemsomos{
+
+    background-color: #000000;
+}
+#cardapio{
+
+    background-color: #000000;
+}
+#cardapio h3{
+    color: #000000;
+    text-align: center;   
+}
+.lista_cardap{
+    margin-bottom: 5px;
+   
+    transition: 1s all;
+    
+
+}
+
+.lista_cardap p{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    background-color:#662d26;
+    margin-top: -10px;
+    padding: 10px;
+    border-top: 2px #fff solid;
+}
+.lista_cardap img{
+    width: 100%;
+    transition: all .6s;
+}
+.lista_cardap img:hover{
+    transform: scale(0.9);
+    border-radius: 10px;
+   
+}
+#contato{
+    height: auto;
+    padding: 5px;
+    background-color: #000000;
+}
+#form{
+    margin-top: 5px;
+}
+#form_enviar{
+    color: #fff;
+    background-color:#9c6644;
+    text-align: center;
+    border-radius: 10px;
+    padding:10px;
+    font-size: 15px;
+    width: 100px;
+}
+#rodape{
+
+    background-color: #212529;   
+}
+#rodape footer{
+    margin-top: 100px;
+}
+#rodape h4{
+    color:#828282 ;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #828282;
+    font-weight: bold;
+}
+#rodape li{
+    color: #828282;
+    text-align: center;
+    list-style: none;
+}
+#rodape li a{
+    
+    color: #828282;
+    text-align: center;
+}
+#linkedin a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #828282;
+    text-align: center;
+}
+.sandro{
+    width: 100%;
+    background-color:#272a2e;
+}
+.sandro a{
+    font-size: 14px;
+    color: #fff;
+}
+#btn_topo{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 1s;
+}
+#btn_topo:hover{
+    transform: scale(0.9);
+}
+/*media query*/
+@media only screen and (max-width: 425px){
+    body{
+        width: 100%;
+
+    }

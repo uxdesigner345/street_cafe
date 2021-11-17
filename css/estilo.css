@@ -1,0 +1,68 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap'); /*sabor irresistivel*/
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300&family=Shadows+Into+Light+Two&family=Special+Elite&display=swap'); /*p*/
+@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
+
+body{
+margin: 0;	
+padding: 0;
+color: #fff;/*todas a letras com cor branca*/
+overflow-x: hidden;
+}
+
+.container{
+	background-image: url('../img/imagem_1.jpg');
+	background-size: cover;
+	width: 100%;
+	min-height: 120vh;
+
+}
+p{
+	font-family: 'Petemoss', cursive;
+	font-size: 35px;
+
+}
+.row{
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 150px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+	padding: 30px;
+	
+}
+.row h3{
+	margin-top: 10px;
+}
+.container a{
+  text-decoration: none;
+}
+#acesso h3{
+	width: 200px;
+	color: #fff;
+	background-color:#9c6644 ;
+	border-radius: 10px;
+	padding: 15px 0 15px 0;
+	transition: 1s all;
+	margin: 0 auto;
+	font-size: 16px;
+
+}
+#acesso h3:hover{
+	letter-spacing: .2rem;
+	background-color:#8e5130;
+
+}
+#social{
+	margin-top: 20px;
+}
+#social img{
+	width: 40px;
+	margin-left: 10px;
+}
+hr{
+	width: 100px;
+}
+.sandro a{
+  color: #fff;
+}
